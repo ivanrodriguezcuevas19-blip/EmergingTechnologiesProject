@@ -1,7 +1,6 @@
 # Network Intrusion Detection: A Two-Stage AutoML Pipeline
 
-AIDI 1010 — Group Assignment 3 (Group 9)
-
+AIDI 1010 - Group 9
 ## Overview
 
 This project builds a two-stage machine learning pipeline to help SOC (Security Operations Center) analysts detect and triage network intrusions. Instead of flooding analysts with alerts, the pipeline first flags whether traffic is an attack at all, then classifies what kind of attack it is, so responses can be prioritized.
@@ -28,7 +27,7 @@ SOC analysts are overwhelmed by high volumes of network traffic alerts, many of 
 ## Key Findings
 
 - Careful evaluation (fixing test-set leakage and correcting a test-tuned threshold) improved results more than additional AutoML search time did
-- Cross-validation must be done correctly when combined with oversampling (e.g. SMOTENC) — doing it in the wrong order can produce badly inflated, misleading metrics
+- Cross-validation must be done correctly when combined with oversampling (e.g. SMOTENC), doing it in the wrong order can produce badly inflated, misleading metrics
 - SHAP-based feature importance sometimes contradicted our own intuitions about which engineered features would matter most
 
 ## Repository Contents
